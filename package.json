@@ -1,0 +1,23 @@
+{
+  "name": "type-catch",
+  "version": "0.0.0",
+  "description": "Try/catch lib allowing multiple type-based catch blocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markmontymark/type-catch.git"
+  },
+  "author": "Mark Koopman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markmontymark/type-catch/issues"
+  },
+  "homepage": "https://github.com/markmontymark/type-catch",
+  "dependencies": {
+    "type_dispatch": "0.0.1",
+    "underscore": "^1.7.0"
+  }
+}
