@@ -4,7 +4,7 @@
   "description": "Try/catch lib allowing multiple type-based catch blocks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "dependencies": {
     "type_dispatch": "0.0.1",
     "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
   }
 }
