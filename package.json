@@ -4,6 +4,7 @@
   "description": "Try/catch lib allowing multiple type-based catch blocks",
   "main": "index.js",
   "scripts": {
+		"start":"node index.js",
     "test": "./node_modules/.bin/mocha"
   },
   "repository": {
