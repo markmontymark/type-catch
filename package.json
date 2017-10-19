@@ -4,7 +4,7 @@
   "description": "Try/catch lib allowing multiple type-based catch blocks",
   "main": "index.js",
   "scripts": {
-		"start":"node index.js",
+    "start": "node start.js",
     "test": "./node_modules/.bin/mocha"
   },
   "repository": {
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/markmontymark/type-catch",
   "dependencies": {
+    "express": "^4.16.2",
     "type_dispatch": "0.0.1",
     "underscore": "^1.7.0"
   },
