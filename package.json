@@ -19,7 +19,7 @@
   "dependencies": {
     "express": "^4.16.2",
     "type_dispatch": "0.0.1",
-    "underscore": "^1.7.0"
+    "underscore": ">=1.12.1"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
